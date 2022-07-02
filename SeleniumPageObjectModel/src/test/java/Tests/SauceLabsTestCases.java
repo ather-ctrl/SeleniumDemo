@@ -21,7 +21,7 @@ public class SauceLabsTestCases {
 	@BeforeMethod
 	public void OpenBrowser() {
 		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe"); 
-		driver = new ChromeDriver();   //Open the browser
+		driver = new ChromeDriver();   
 		driver.get("https://www.saucedemo.com/"); 	
 	}
 	
